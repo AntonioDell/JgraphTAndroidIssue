@@ -5,7 +5,7 @@ Minimum example for issue with JgraphT in android
 Android Studio 3.2
 
 # ErrorStackTrace
-'''2018-10-10 17:32:24.264 31107-31107/? E/AndroidRuntime: FATAL EXCEPTION: main
+```2018-10-10 17:32:24.264 31107-31107/? E/AndroidRuntime: FATAL EXCEPTION: main
     Process: de.prototype.antonio.myapplication, PID: 31107
     java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{de.prototype.antonio.myapplication/de.prototype.antonio.myapplication.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "de.prototype.antonio.myapplication.MainActivity" on path: DexPathList[[zip file "/data/app/de.prototype.antonio.myapplication-ITg2wdZRXslry-84TvN0ag==/base.apk"],nativeLibraryDirectories=[/data/app/de.prototype.antonio.myapplication-ITg2wdZRXslry-84TvN0ag==/lib/arm64, /system/lib64, /vendor/lib64, /product/lib64]]
         at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3092)
@@ -42,4 +42,4 @@ Android Studio 3.2
         at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:93)
         at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
         at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
-        		... 15 more'''
+        		... 15 more```
